@@ -1,11 +1,11 @@
 {
-  "name": "parse-server-azure-storage",
+  "name": "@shawkatkabbara/parse-server-azure-storage",
   "version": "1.1.1",
   "description": "Use Azure Blob Storage with Parse Server",
   "main": "lib/AzureStorageAdapter.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/felixrieseberg/parse-server-azure-storage"
+    "url": "git+https://github.com/felixrieseberg/parse-server-azure-storage.git"
   },
   "files": [
     "lib/",
@@ -23,7 +23,7 @@
     "@babel/preset-env": "^7.23.4",
     "@babel/register": "^7.22.15",
     "jest": "^29.7.0",
-    "dotenv": "^16.3.1" 
+    "dotenv": "^16.3.1"
   },
   "scripts": {
     "build": "babel src/ -d lib/",
